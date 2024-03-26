@@ -41,6 +41,6 @@ setInterval(() => {
 
 
 function start() {
-    let time = `${select[0].value}:${selectt[1].value} ${selecttt[2].value} `
+    let time = `${select.value}:${selectt.value} ${selecttt.value} `
     console.log(time);
 }
