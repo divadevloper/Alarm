@@ -10,15 +10,25 @@
 <body>
     <div id="container">
         <div id="small-container">
-           <p id="ptage">  Current time: <span id="Currenttime"></span></p>
+           <div class="image">
+            <img src="alarm.png" alt="">
+           </div>
+          <h1 id="myh1"> 00:00:0 PM</h1>
              <div id="timecarry">
                 <select id="select">
-                    <option value="">hours</option>
+                    <option value="" selected hidden>hours</option>
                  </select>
                  <select id="selectt">
-                    <option value="">Minutes</option>
+                    <option value="" selected hidden>Minutes</option>
     
                  </select>
+                 <select  id="selecttt"> 
+                    <option value="" selected hidden> AM\PM</option>
+                 </select>
+             </div>
+             <div class="div-btn">
+                <button id="startt" onclick="start()"> Start</button>
+               
              </div>
         </div>
     </div>
