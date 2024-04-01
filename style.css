@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: aliceblue;
+    background: linear-gradient(white, blue,black);
 
 }
 .image{
@@ -59,11 +59,19 @@
     gap: 10px;
 }
 #startt{
-    width: 90%;
+    width: 30%;
     height: 6vh;
     color: white;
     border-radius: 5px;
     border: 0;
     background-color: rgb(68, 141, 243);
+}
+#starttt{
+    width: 30%;
+    height: 6vh;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(243, 68, 68);
 }
 
